@@ -27,4 +27,4 @@ with open(filename, "r") as csvfile:
 
 plt.plot(x, y, label=column)
 plt.legend()
-plt.savefig(column + ".png")
+plt.savefig("graphs/" + column + ".png")
